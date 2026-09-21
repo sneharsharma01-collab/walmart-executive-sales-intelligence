@@ -1,0 +1,35 @@
+
+STEP 3A — ANALYTICAL PREPARATION REPORT
+
+Original rows: 8399
+Final rows: 8399
+
+Original columns: 24
+Final columns: 32
+
+Rows removed: 0
+
+Analytical columns created:
+- order_year
+- order_quarter
+- order_month
+- order_month_name
+- shipping_days
+- profit_margin_pct
+- is_loss_making
+- discount_band
+
+Negative profit rows preserved: YES
+
+Missing customer_age preserved: YES
+Missing product_base_margin preserved: YES
+
+Profit validation:
+Invalid profit values: 0
+
+CSV encoding: UTF-8
+CSV quoting: ALL FIELDS
+MySQL-safe text formatting: YES
+
+Output file:
+walmart_sales_analysis_ready.csv
