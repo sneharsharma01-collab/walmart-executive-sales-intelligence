@@ -25,7 +25,7 @@ This analysis investigates:
 * Differences in profitability across regions and categories
 * Whether operational factors such as shipping time provide additional business context
 
-  ## Data Preparation
+## Data Preparation
 
 The original dataset contained **8,399 rows and 25 columns**.
 
@@ -87,3 +87,39 @@ SQL analysis was used to investigate:
 
 The analysis used SQL aggregations, filtering, grouping, conditional logic, and calculated metrics to answer business-focused questions.
 
+## Power BI Dashboard
+
+An interactive Power BI dashboard was developed to provide an executive view of the retail business performance.
+
+The dashboard focuses on:
+* **Total Sales and Total Profit**
+* Sales and profit by **Product Category**
+* **Regional performance**
+* **Loss-making orders**
+* **Discount patterns**
+* Interactive filtering to explore business performance across different segments
+
+The dashboard brings the analysis together into a single visual view, making it easier to identify profitability patterns and areas requiring further attention.
+
+### Dashboard Preview
+
+![Walmart Executive Sales Intelligence Dashboard](sswalmart1.png)
+
+## Key Findings
+
+* The dataset generated approximately **$14.92M in sales** and **$1.52M in total profit**.
+* **4,264 of 8,399 orders (50.77%) were loss-making**, highlighting a significant profitability issue despite positive overall profit.
+* **Technology** generated the highest category profit at approximately **$886.3K**.
+* **Furniture** generated the lowest category profit at approximately **$117.4K** and also recorded the largest total loss from loss-making orders.
+* The **Central region** generated the highest sales at approximately **$4.70M**.
+* The **South region** recorded the highest average profit per order at approximately **$229.87**.
+* The **1–5% and 6–10% discount bands** accounted for most of the observed profit, while the **16%+ band contained only 4 records and showed a small overall loss**.
+  
+## Business Recommendations
+
+Based on the analysis, the following actions could help improve profitability:
+* **Review Furniture profitability:** Investigate pricing, discounting, product-level margins, and loss-making transactions within the Furniture category.
+* **Monitor loss-making orders:** Identify the products, regions, and transaction characteristics associated with negative profit and review them regularly.
+* **Evaluate discount strategies:** Compare profitability across discount levels before applying higher discounts, particularly where margins are already low.
+* **Use regional profitability metrics:** Track both total sales and average profit across regions to avoid focusing on sales volume alone.
+* **Prioritize profitable categories:** Use category-level profitability alongside sales performance when evaluating product and sales strategies.
